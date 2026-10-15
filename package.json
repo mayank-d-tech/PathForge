@@ -1,0 +1,31 @@
+{
+  "name": "pathforge",
+  "private": true,
+  "version": "1.1.0",
+  "description": "PathForge – an interactive graph algorithm visualizer (BFS, DFS, Dijkstra's, A*) built with React.",
+  "author": "Mayank Dubey",
+  "license": "MIT",
+  "homepage": "https://mayank-d-tech.github.io/PathForge/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank-d-tech/PathForge.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
